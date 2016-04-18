@@ -29,4 +29,6 @@ Features
 Translation
 -------------------------
 * Russian (ru_RU)
+
+
 If you would like to create your own language pack or update the existing one, you can send the text of PO and MO files to BestWebSoft, and we’ll add it to the plugin. You can download the latest version of the program for working with PO and MO files Poedit.
