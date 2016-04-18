@@ -1,0 +1,81 @@
+/*
+Theme Name: Restaurant Advisor
+Description: Used to style the TinyMCE editor.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Lato-Bold, sans-serif;
+	margin: 12px 0 13px 0;
+}
+
+p {
+	font-family: Lato-Bold, sans-serif;
+	font-size: 15.2px;
+	letter-spacing: 0.35px;
+}
+
+dl {
+	font-family: OpenSans, sans-serif;
+	margin: 25px 0 35px;
+	max-width: 100%;
+}
+
+dt {
+	font-family: OpenSans, sans-serif;
+	color: #5aa90d;
+	font-size: 16px;
+	letter-spacing: 0.8px;
+	padding: 12px 0 0 29px;
+	max-width: 100%
+}
+
+dd {
+	font-family: OpenSans, sans-serif;
+	padding: 14px 0 0 30px;
+}
+
+a {
+	color: #5aa90d;
+	font-size: 15.2px;
+	letter-spacing: 0.35px;
+	line-height: 36px;
+	font-family: OpenSans, sans-serif;
+}
+
+table {
+	border-spacing: 0;
+	margin: 30px 0;
+}
+
+th {
+	font-family: Lato-Bold, sans-serif;
+	color: #5aa90d;
+	padding: 12px 4.4% 14px 4%;
+	font-size: 18px;
+	letter-spacing: 0.9px;
+	text-align: left;
+	line-height: 23px;
+	text-transform: uppercase;
+}
+
+tr {
+	font-family: OpenSans, sans-serif;
+	border-spacing: 0;
+	line-height: 22px;
+	background-color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #e3f0d6;
+	line-height: 20px;
+}
+
+td {
+	font-size: 15px;
+	letter-spacing: 0.35px;
+}

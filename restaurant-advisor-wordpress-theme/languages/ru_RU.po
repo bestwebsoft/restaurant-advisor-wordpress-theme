@@ -1,0 +1,390 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Restaurant Advisor\n"
+"POT-Creation-Date: 2016-04-18 12:07+0300\n"
+"PO-Revision-Date: 2016-04-18 12:08+0300\n"
+"Last-Translator: \n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: footer.php:38
+msgid "Contact us"
+msgstr "Напишите нам"
+
+#: footer.php:65
+msgid "Copyright"
+msgstr "Авторские права"
+
+#: functions.php:59
+msgid "Primary Menu"
+msgstr "Главное Меню"
+
+#: functions.php:60
+msgid "Top Menu"
+msgstr "Меню Шапки"
+
+#: functions.php:61
+msgid "Footer Menu"
+msgstr "Меню Подвала"
+
+#: functions.php:70
+msgid "Tag"
+msgstr " Метка"
+
+#: functions.php:73
+msgid "Category"
+msgstr "Рубрика"
+
+#: functions.php:76 archive.php:14
+msgid "Archive"
+msgstr "Архив"
+
+#: functions.php:93
+msgid "Logo"
+msgstr "Логотип"
+
+#: functions.php:95
+msgid "Load the logo to your site."
+msgstr "Загрузите логотип Вашего сайта"
+
+#: functions.php:95
+msgid "Recommended sizes"
+msgstr "Рекомендуемые размеры"
+
+#: functions.php:95
+msgid "for header logo"
+msgstr "для логотипа шапки"
+
+#: functions.php:95
+msgid "for footer logo"
+msgstr "для логотипа подвала"
+
+#: functions.php:99
+msgid "Theme Options"
+msgstr " Настройки Темы"
+
+#: functions.php:101
+msgid ""
+"Here you can change the address and phone the site owner, and also link to "
+"reservation service . It's posible to save forms empty."
+msgstr ""
+"Здесь можно изменить адрес и телефон владельца сайта, а также ссылку на "
+"сервис бронирования. Возможно оставить формы пустыми."
+
+#: functions.php:105 functions.php:182
+msgid "Adress"
+msgstr "Адрес"
+
+#: functions.php:107
+msgid "Enter you address. E.g."
+msgstr "Введите ваш адрес. Напр."
+
+#: functions.php:112 functions.php:175
+msgid "Phone"
+msgstr "Телефон"
+
+#: functions.php:114
+msgid "Enter you phone number. E.g."
+msgstr "Введите ваш номер телефона. Напр."
+
+#: functions.php:119
+msgid "Reservation"
+msgstr "Бронирование"
+
+#: functions.php:121
+msgid "Enter the reservation system URL. E.g."
+msgstr "Введите URL системы бронирования. Напр."
+
+#: functions.php:126
+msgid "Email"
+msgstr "Email"
+
+#: functions.php:128
+msgid "Enter the e-mail for feedback. E.g."
+msgstr "Введите e-mail для обратной связи. Напр."
+
+#: functions.php:163
+msgid "Header Logo"
+msgstr "Логотип Шапки"
+
+#: functions.php:169
+msgid "Footer Logo"
+msgstr "Лого Подвала"
+
+#: functions.php:189
+msgid "Reservation link"
+msgstr "Ссылка на страницу бронирования"
+
+#: functions.php:196
+msgid "E-mail for feedback"
+msgstr "E-mail для обратной связи"
+
+#: functions.php:216
+msgid "Choose File"
+msgstr "Выберите Файл"
+
+#: functions.php:217
+msgid "No file chosen"
+msgstr "Файл не выбран"
+
+#: functions.php:240
+msgid "Advisor sidebar"
+msgstr "Боковая колонка"
+
+#: functions.php:248
+msgid "Footer Widget"
+msgstr "Виджеты Подвала"
+
+#: functions.php:269
+msgid "Post Address"
+msgstr "Почтовый Адрес"
+
+#: functions.php:279
+msgid "You can enter the adddres here for show the reference to Google Maps"
+msgstr "Здесь вы можете ввести адрес, чтобы показать ссылку на Гугл Карты"
+
+#: functions.php:310
+msgid "Advisor Recent Posts"
+msgstr "Свежие Записи От Advisor"
+
+#: functions.php:310
+msgid "Widget recent posts for advisor theme"
+msgstr "Виджет, показывающий свежие записи для темы  Advisor"
+
+#: functions.php:318
+msgid "Recent Posts"
+msgstr "Свежие Записи"
+
+#: functions.php:379
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: functions.php:381
+msgid "Number of posts to show:"
+msgstr "Отображать записей:"
+
+#: functions.php:406
+msgid "Visit this place"
+msgstr "Посетить это место"
+
+#: functions.php:414 functions.php:439 functions.php:462
+msgid "Edit"
+msgstr "Редактировать"
+
+#: functions.php:426
+msgid "Posted by"
+msgstr "Опубликовано пользователем"
+
+#: functions.php:441
+msgid "Pingback: "
+msgstr "Уведомление: "
+
+#: functions.php:448
+msgid "written by"
+msgstr "сказано"
+
+#: functions.php:469
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: functions.php:479
+msgid "read more"
+msgstr "продолжить чтение"
+
+#: index.php:46 archive.php:55 image.php:35 single.php:31 page.php:40
+#: search.php:44
+msgid "Pages"
+msgstr "Страница"
+
+#: index.php:70 archive.php:79 search.php:60
+msgid "top"
+msgstr "вверх"
+
+#: index.php:86 archive.php:96 search.php:73
+msgid "Sorry, no posts were found"
+msgstr "Извините, ничего не найдено"
+
+#: comments.php:11
+msgid "Comments closed"
+msgstr "Комментарии запрещены"
+
+#: comments.php:14
+msgid "No comments yet"
+msgstr "Здесь пока нет комментариев"
+
+#: comments.php:18
+msgid "comments"
+msgstr "комментарии"
+
+#: comments.php:21 comments.php:36
+msgid "prev comments"
+msgstr "пред. комментарий"
+
+#: comments.php:24 comments.php:39
+msgid "next comments"
+msgstr "след. комментарий"
+
+#: comments.php:45
+msgid "name"
+msgstr "ваше имя"
+
+#: comments.php:46
+msgid "Your Name"
+msgstr "Ваше Имя"
+
+#: comments.php:48
+msgid "e-mail"
+msgstr "ваш e-mail"
+
+#: comments.php:49
+msgid "Your E-mail"
+msgstr "Ваш E-mail"
+
+#: comments.php:55
+msgid "comment"
+msgstr "ваш комментарий"
+
+#: comments.php:56
+msgid "Your Comment"
+msgstr "Ваш Комментарий"
+
+#: comments.php:57
+msgid "leave a comment"
+msgstr "оставить комментарий"
+
+#: comments.php:58
+msgid "submit comment"
+msgstr "подтвердить"
+
+#: image.php:49
+msgid "PREV"
+msgstr "ПРЕД."
+
+#: image.php:50
+msgid "NEXT"
+msgstr "СЛЕД."
+
+#: single.php:53
+msgid "prev"
+msgstr "пред"
+
+#: single.php:54
+msgid "next"
+msgstr "след"
+
+#: 404.php:13
+msgid "Sorry, requested post not found"
+msgstr "Извините, запрашиваемая страница не найдена"
+
+#: header.php:30
+msgid "view us on"
+msgstr "мы здесь"
+
+#: header.php:36
+msgid "reservation"
+msgstr "бронирование"
+
+#: search.php:13
+msgid "Search Results for"
+msgstr "Поиск по запросу"
+
+#~ msgid "ERROR"
+#~ msgstr "ОШИБКА"
+
+#~ msgid "E-mail is not valid"
+#~ msgstr "Неверный e-mail"
+
+#~ msgid "Reservation link is not valid"
+#~ msgstr "Неверная ссылка на страницу бронирования"
+
+#~ msgid "Options saved."
+#~ msgstr "Информация сохранена."
+
+#~ msgid "Save Changes"
+#~ msgstr "Сохранить изменения"
+
+#~ msgid "Gallery Category"
+#~ msgstr "Категория галереи"
+
+#~ msgid "Download high resolution image"
+#~ msgstr "Загрузите изображение большего разрешения"
+
+#~ msgid "Sorry, nothing found."
+#~ msgstr "Извините, ничего не найдено"
+
+#~ msgid "Image"
+#~ msgstr "Изображение"
+
+#~ msgid "Post Place"
+#~ msgstr "Адрес для записи"
+
+#~ msgid "Nothing Found!"
+#~ msgstr "Ничего не найдено!"
+
+#, fuzzy
+#~ msgid "results from"
+#~ msgstr "Поиск по запросу"
+
+#~ msgid "Contact Data"
+#~ msgstr "Контактные Данные"
+
+#~ msgid "SUBMIT COMMENT"
+#~ msgstr "ПОДТВЕРДИТЬ"
+
+#~ msgid "VIEW US ON"
+#~ msgstr "МЫ ЗДЕСЬ"
+
+#~ msgid "RESERVATION"
+#~ msgstr " БРОНИРОВАНИЕ"
+
+#~ msgid "COMMENTS"
+#~ msgstr "КОММЕНТАРИИ"
+
+#~ msgid "PREV COMMENTS"
+#~ msgstr "ПРЕД. КОММЕНТАРИИ"
+
+#~ msgid "NEXT COMMENTS"
+#~ msgstr "СЛЕД. КОММЕНТАРИИ"
+
+#~ msgid "NAME"
+#~ msgstr "ИМЯ"
+
+#~ msgid "E-MAIL"
+#~ msgstr "Электронная почта"
+
+#~ msgid "COMMENT"
+#~ msgstr "КОММЕНТАРИЙ"
+
+#~ msgid "LEAVE A COMMENT"
+#~ msgstr "ОСТАВИТЬ КОММЕНТАРИЙ"
+
+#~ msgid "WRITTEN BY"
+#~ msgstr "СКАЗАНО"
+
+#~ msgid "Enter the URL without  ' http:// '"
+#~ msgstr "Введите URL без  ' http:// '"
+
+#~ msgid "Posted in"
+#~ msgstr "Опубликовано в"
+
+#~ msgid "Page"
+#~ msgstr "Страница"
+
+#~ msgid "Change the contact data here"
+#~ msgstr "Здесь можно изменить контактные данные"
+
+#~ msgid "About Us"
+#~ msgstr "О Нас"
+
+#~ msgid "Display post date?"
+#~ msgstr "Отображать дату публикации записи?"
