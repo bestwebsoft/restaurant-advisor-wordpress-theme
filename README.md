@@ -3,7 +3,7 @@
 
 Restaurant Advisor is an elegant theme created especially for food critics, restaurant bloggers, chefs reviews, etc. This theme is responsive, and accordingly, its stylish design will look perfectly on any device. Another great advantage of this theme is the opportunity to add your own logos, which ultimately will make your website unique. Also, it is incredibly easy to use, both for you and for your users.
 
-src="http://bestwebsoft.com/wp-content/uploads/2015/07/restaurant-advisor-banner.jpg" />
+<img src="http://bestwebsoft.com/wp-content/uploads/2015/07/restaurant-advisor-banner.jpg" />
 
 <a href="http://bestwebsoft.com/products/multilanguage/description" target=_blank>Description</a> | 
 <a href="http://bestwebsoft.com/products/multilanguage/installation" target=_blank>Installation</a> | 
