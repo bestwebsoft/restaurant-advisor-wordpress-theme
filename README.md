@@ -1,16 +1,16 @@
-<a href="http://bestwebsoft.com/products/restaurant-advisor/" target=_blank>Restaurant Advisor</a>
+<a href="http://bestweblayout.com/products/restaurant-advisor/" target=_blank>Restaurant Advisor</a>
 =========================
 
 Restaurant Advisor is an elegant theme created especially for food critics, restaurant bloggers, chefs reviews, etc. This theme is responsive, and accordingly, its stylish design will look perfectly on any device. Another great advantage of this theme is the opportunity to add your own logos, which ultimately will make your website unique. Also, it is incredibly easy to use, both for you and for your users.
 
-<img src="http://bestwebsoft.com/wp-content/uploads/2015/07/restaurant-advisor-banner.jpg" />
+<img src="http://bestweblayout.com/wp-content/uploads/2015/07/restaurant-advisor-banner-588x300.jpg" />
 
-<a href="http://bestwebsoft.com/products/restaurant-advisor/description" target=_blank>Description</a> | 
-<a href="http://bestwebsoft.com/products/restaurant-advisor/installation" target=_blank>Installation</a> | 
-<a href="http://bestwebsoft.com/products/restaurant-advisor/faq" target=_blank>FAQ</a> | 
-<a href="http://bestwebsoft.com/products/restaurant-advisor/screenshots" target=_blank>Screenshots</a> | 
-<a href="http://bestwebsoft.com/products/restaurant-advisor/changelog" target=_blank>Changelog</a> | 
-<a href="http://bestwebsoft.com/products/restaurant-advisor/download" target=_blank>Download</a>
+<a href="http://bestweblayout.com/products/restaurant-advisor/description" target=_blank>Description</a> | 
+<a href="http://bestweblayout.com/products/restaurant-advisor/installation" target=_blank>Installation</a> | 
+<a href="http://bestweblayout.com/products/restaurant-advisor/faq" target=_blank>FAQ</a> | 
+<a href="http://bestweblayout.com/products/restaurant-advisor/screenshots" target=_blank>Screenshots</a> | 
+<a href="http://bestweblayout.com/products/restaurant-advisor/changelog" target=_blank>Changelog</a> | 
+<a href="http://bestweblayout.com/products/restaurant-advisor/download" target=_blank>Download</a>
 
 
 Features
