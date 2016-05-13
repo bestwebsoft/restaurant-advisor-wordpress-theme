@@ -2,7 +2,7 @@
 /**
 * The template for displaying single pages
 *
-* @package BestWebSoft
+* @package BestWebLayout
 * @subpackage Restaurant Advisor
 * @since Restaurant Advisor 1.3
 **/

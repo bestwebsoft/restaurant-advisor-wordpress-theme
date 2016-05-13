@@ -2,7 +2,7 @@
 /**
 * The template for displaying main page with all posts
 *
-* @package BestWebSoft
+* @package BestWebLayout
 * @subpackage Restaurant Advisor
 * @since Restaurant Advisor 1.3
 **/

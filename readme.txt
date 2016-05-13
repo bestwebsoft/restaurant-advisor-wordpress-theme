@@ -1,17 +1,17 @@
 === Restaurant Advisor ===
-Contributors: the BestWebSoft team
-Tags: white, green, black, right sidebar, custom header, translation ready, featured images, two columns, responsive layout, custom background, post formats, custom colors, sticky post
+Contributors: BestWebLayout, BestWebSoft
+Tags: white, green, black, right-sidebar, custom-header, translation-ready, featured-images, two-columns, responsive-layout, custom-background, post-formats, custom-colors, sticky-post
 Requires at least: 4.1 
-Tested up to: 4.5
-Stable tag: 1.3
+Tested up to: 4.5.1
+Stable tag: 1.4
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Restaurant Advisor, Copyright 2015 BestWebSoft.org
+Restaurant Advisor WordPress Theme, Copyright 2016 BestWebLayout.com
 Restaurant Advisor is distributed under the terms of the GNU GPL
 
 == Description ==
 
-Restaurant Advisor is an elegant theme created especially for food critics, restaurant bloggers, chefs reviews etc. This theme is responsive, and accordingly, its stylish design will look perfectly on any device. Another great advantage of this theme is the opportunity to add your own logos, which ultimately will make your website unique. Also, it is incredibly easy to use, both for you and for your users. Live demo: http://bestwebsoft.com/wordpress_demo_theme/restaurant-advisor/
+Restaurant Advisor is an elegant theme created especially for food critics, restaurant bloggers, chefs reviews etc. This theme is responsive, and accordingly, its stylish design will look perfectly on any device. Another great advantage of this theme is the opportunity to add your own logos, which ultimately will make your website unique. Also, it is incredibly easy to use, both for you and for your users. Live demo: http://wp-demo-theme.bestweblayout.com/restaurant-advisor/
 
 = Features = 
 
@@ -29,7 +29,7 @@ Restaurant Advisor is an elegant theme created especially for food critics, rest
 
 * Russian (ru_RU)
 
-If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> to <a href="http://support.bestwebsoft.com" target="_blank">BestWebSoft</a>, and we'll add it to the plugin. You can download the latest version of the program for working with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> to <a href="http://support.bestweblayout.com" target="_blank">BestWebLayout</a>, and we'll add it to the plugin. You can download the latest version of the program for working with PO and MO files <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
 
 = Copyrights for Resources used in this theme = 
 
@@ -60,7 +60,7 @@ source: http://igor10k.github.io/ikSelect/
     			   A photo by katesokate (https://pixabay.com/en/food-drinks-restaurant-878445/), licensed under Creative Commons Zero (https://creativecommons.org/publicdomain/zero/1.0/)
     			   A photo by lindico (https://pixabay.com/en/food-restaurant-birthday-632806/), licensed under Creative Commons Zero (https://creativecommons.org/publicdomain/zero/1.0/)
   In logo used icon by hunotika (https://thenounproject.com/term/serving/41839/), licensed under Creative Commons 3.0 United States (http://creativecommons.org/licenses/by/3.0/us/)
-Everything else used in this theme has been created by BestWebSoft, specifically for Advisor theme, and is distributed under GPL license.
+Everything else used in this theme has been created by BestWebLayout, specifically for Advisor theme, and is distributed under GPL license.
 
 == Installation ==
 Manual installation:
@@ -102,7 +102,10 @@ Download your images in Appearance → Customize → Logo
 == Screenshots ==
 1. Theme home page.
 
-== Changelog == 
+== Changelog ==
+
+= V1.4 - 04.05.2016 =
+* Update: Theme was transferred to new WordPress account.
 
 = V1.3 - 18.04.2016 =
 * Bugfix: Escaped all echoed data
@@ -121,7 +124,10 @@ Download your images in Appearance → Customize → Logo
 = V1.0 - 21.12.2015 =
 * Release of Restaurant Advisor theme
 
-== Upgrade Notice == 
+== Upgrade Notice ==
+
+= V1.4 =
+Theme was transferred to new WordPress account.
 
 = V1.3 =
 Escaped all echoed data. Theme Options transfer to the Customizer. Styles fixed. Theme Options transfer to the Customizer. Licences for pictures added in readme.txt. The theme has been tested for the compatibility with WordPress v.4.5.

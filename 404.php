@@ -2,7 +2,7 @@
 /**
 * The template for displaying the 404 error (page not found)
 *
-* @package BestWebSoft
+* @package BestWebLayout
 * @subpackage Restaurant Advisor
 * @since Restaurant Advisor 1.3
 **/

@@ -2,7 +2,7 @@
 /**
 * The template for displaying comments list and comment form
 *
-* @package BestWebSoft
+* @package BestWebLayout
 * @subpackage Restaurant Advisor
 * @since Restaurant Advisor 1.3
 **/

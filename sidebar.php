@@ -2,7 +2,7 @@
 /**
 * The template for displaying site sidebar
 *
-* @package BestWebSoft
+* @package BestWebLayout
 * @subpackage Restaurant Advisor
 * @since Restaurant Advisor 1.3
 **/
