@@ -3,7 +3,7 @@ Contributors: BestWebLayout, BestWebSoft
 Tags: white, green, black, right-sidebar, custom-header, translation-ready, featured-images, two-columns, responsive-layout, custom-background, post-formats, custom-colors, sticky-post
 Requires at least: 4.1 
 Tested up to: 4.5.1
-Stable tag: 1.4
+Stable tag: 1.5
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Restaurant Advisor WordPress Theme, Copyright 2016 BestWebLayout.com
@@ -43,10 +43,15 @@ If you would like to create your own language pack or update the existing one, y
 - Source Code Pro - http://www.google.com/fonts/specimen/Open+Sans
       License: SIL Open Font License, 1.1
       Copyright: Paul D. Hunt, https://plus.google.com/108888178732927400671/about
+- Arimo - https://www.google.com/fonts/specimen/Arimo
+      License: Apache License, version 2.0
+      Copyright: Steve Matteson, https://profiles.google.com/107777320916704234605/about
 
-Font Awesome -https://fortawesome.github.io/Font-Awesome/
-License: SIL OFL 1.1
-URL: http://scripts.sil.org/OFL
+Font Awesome - https://fortawesome.github.io/Font-Awesome/
+  Font  License - SIL OFL 1.1
+        URL - http://scripts.sil.org/OFL
+  Code  License - MIT License
+        URL - http://opensource.org/licenses/mit-license.html
 
 * The following js-files are used in the Theme:
     jquery.ikSelect.min.js
@@ -59,7 +64,6 @@ source: http://igor10k.github.io/ikSelect/
   Screenshot: A photo by chin1031 (https://pixabay.com/en/delicious-beef-meal-restaurant-966801/), licensed under Creative Commons Zero (https://creativecommons.org/publicdomain/zero/1.0/)
     			   A photo by katesokate (https://pixabay.com/en/food-drinks-restaurant-878445/), licensed under Creative Commons Zero (https://creativecommons.org/publicdomain/zero/1.0/)
     			   A photo by lindico (https://pixabay.com/en/food-restaurant-birthday-632806/), licensed under Creative Commons Zero (https://creativecommons.org/publicdomain/zero/1.0/)
-  In logo used icon by hunotika (https://thenounproject.com/term/serving/41839/), licensed under Creative Commons 3.0 United States (http://creativecommons.org/licenses/by/3.0/us/)
 Everything else used in this theme has been created by BestWebLayout, specifically for Advisor theme, and is distributed under GPL license.
 
 == Installation ==
@@ -97,12 +101,17 @@ WordPress v3.9.2 and below:
 In the main catalog of your WordPress site, please find wp-config.php file, open it and change define( 'WPLANG', '' ); for define( 'WPLANG', 'ru_RU' );
 
 = How can I change footer and header logo? =
-Download your images in Appearance → Customize → Logo
+Download your images in:
+  - Appearance → Customize → Site Identity( Header logo for WordPress 4.5 or later )
+  - Appearance → Customize → Logo( Header Logo for WordPress version less than 4.5 and Footer Logo )
 
 == Screenshots ==
 1. Theme home page.
 
 == Changelog ==
+
+= V1.5 - 27.05.2016 =
+* Update: Header logo installation was implemented using the core for WordPress 4.5 and later
 
 = V1.4 - 04.05.2016 =
 * Update: Theme was transferred to new WordPress account.
@@ -125,6 +134,9 @@ Download your images in Appearance → Customize → Logo
 * Release of Restaurant Advisor theme
 
 == Upgrade Notice ==
+
+= V1.5 =
+Header logo installation was implemented using the core for WordPress 4.5 and later.
 
 = V1.4 =
 Theme was transferred to new WordPress account.

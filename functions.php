@@ -3,10 +3,11 @@
 /* Set content width value based on the theme's design */
 if ( ! isset( $content_width ) )
 	$content_width = 753;
-
 /* Register Theme Features */
 function advisor_theme_setup()  {
+	global $wp_version, $wp_version_for_logo;
 
+	$wp_version_for_logo = isset( $wp_version ) && $wp_version >= 4.5;
 	/* Add theme support for Automatic Feed Links */
 	add_theme_support( 'automatic-feed-links' );
 
@@ -15,7 +16,13 @@ function advisor_theme_setup()  {
 
 	/* Add theme support for Featured Images */
 	add_theme_support( 'post-thumbnails' );
-
+	if( $wp_version_for_logo ) {
+		$logo_args = array(
+			'height'	=> 141,
+			'width'		=> 138
+		);
+		add_theme_support( 'custom-logo', $logo_args );
+	}
 	/* Add theme support for Custom Background */
 	$background_args = array(
 		'default-color'          => 'fff',
@@ -78,21 +85,15 @@ function advisor_title( $title ) {
 	return $title;
 }
 
-function advisor_default_logo() {
-	if ( false == get_option( 'advisor_default_logo' ) ) {
-		set_theme_mod( 'advisor_header_logo', get_template_directory_uri() . '/images/logo.png' );
-		set_theme_mod( 'advisor_footer_logo', get_template_directory_uri() . '/images/logo-copy.png' );
-		update_option( 'advisor_default_logo', true );
-	}
-}
-
 /* Create the Logo sections in Customize Menu */
 function advisor_customize_register( $wp_customize ) {		
+	global 	$wp_version_for_logo;
 
+	$logo_description = ! $wp_version_for_logo ? '<br />&#9900; ' . __( 'for header logo', 'restaurant-advisor' ) . ' - 138 &times; 141 px' : '';
 	$wp_customize->add_section( 'advisor_logo_section' , array(
 		'title'       => __( 'Logo', 'restaurant-advisor' ),
 		'priority'    => 30,
-		'description' => __( 'Load the logo to your site.', 'restaurant-advisor' ) . '<br />' . __( 'Recommended sizes', 'restaurant-advisor' ) . ':<br />1) ' . __( 'for header logo', 'restaurant-advisor' ) . ' - 138 &times; 141 px<br />2) ' . __( 'for footer logo', 'restaurant-advisor' ) . ' - 77 &times; 78 px'
+		'description' => __( 'Load the logo to your site.', 'restaurant-advisor' ) . '<br />' . __( 'Recommended sizes', 'restaurant-advisor' ) . ':' . $logo_description .'<br />&#9900; ' . __( 'for footer logo', 'restaurant-advisor' ) . ' - 77 &times; 78 px'
 	) );
 
 	$wp_customize->add_panel( 'advisor_info_panel' , array(
@@ -101,10 +102,10 @@ function advisor_customize_register( $wp_customize ) {
 		'description' => __( "Here you can change the address and phone the site owner, and also link to reservation service . It's posible to save forms empty.", 'restaurant-advisor' )
 	) );
 
-	$wp_customize->add_section( 'advisor_info_adress' , array(
-		'title'       => __( 'Adress', 'restaurant-advisor' ),
+	$wp_customize->add_section( 'advisor_info_address' , array(
+		'title'       => __( 'Address', 'restaurant-advisor' ),
 		'priority'    => 10,
-		'description' => __( 'Enter you address. E.g.', 'restaurant-advisor' ) . ' "1600 Amphitheatre Parkway Mountain View CA 94043"',
+		'description' => __( 'Enter you address. E.g.', 'restaurant-advisor' ) . ' ' . __( '1600 Amphitheatre Parkway Mountain View CA 94043', 'restaurant-advisor' ),
 		'panel'       => 'advisor_info_panel'
 	) );
 
@@ -125,11 +126,11 @@ function advisor_customize_register( $wp_customize ) {
 	$wp_customize->add_section( 'advisor_info_email' , array(
 		'title'       => __( 'Email', 'restaurant-advisor' ),
 		'priority'    => 40,
-		'description' => __( 'Enter the e-mail for feedback. E.g.', 'restaurant-advisor' ) . ' "example.mail@gmail.com"',
+		'description' => __( 'Enter the e-mail for feedback. E.g.', 'restaurant-advisor' ) . ' "example.mail@mail.com"',
 		'panel'       => 'advisor_info_panel'
 	) );
 
-	$wp_customize->add_setting( 'advisor_info_adress' , array(
+	$wp_customize->add_setting( 'advisor_info_address' , array(
 		'sanitize_callback' => 'sanitize_text_field',
 		'default'           => '',
 	) );
@@ -149,21 +150,25 @@ function advisor_customize_register( $wp_customize ) {
 		'default'           => '',
 	) );
 
-	$wp_customize->add_setting( 'advisor_header_logo' , array(
-		'sanitize_callback' => 'esc_url_raw',
-		'default'           => get_template_directory_uri() . '/images/logo.png',
-	) );
+	if( ! $wp_version_for_logo ) {
+		$wp_customize->add_setting( 'advisor_header_logo' , array(
+			'sanitize_callback' => 'esc_url_raw',
+			'default'           => get_template_directory_uri() . '/images/logo.png',
+		) );
+	}
 
 	$wp_customize->add_setting( 'advisor_footer_logo' , array(
 		'sanitize_callback' => 'esc_url_raw',
 		'default'           => get_template_directory_uri() . '/images/logo-copy.png',
 	) );
 
-	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'advisor_header_logo', array(
-		'label'    => __( 'Header Logo', 'restaurant-advisor' ),
-		'section'  => 'advisor_logo_section',
-		'settings' => 'advisor_header_logo',
-	) ) );
+	if( ! $wp_version_for_logo ) {
+		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'advisor_header_logo', array(
+			'label'    => __( 'Header Logo', 'restaurant-advisor' ),
+			'section'  => 'advisor_logo_section',
+			'settings' => 'advisor_header_logo',
+		) ) );
+	}
 
 	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'advisor_footer_logo', array(
 		'label'    => __( 'Footer Logo', 'restaurant-advisor' ),
@@ -178,10 +183,10 @@ function advisor_customize_register( $wp_customize ) {
             'type'           => 'text',
 	) ) );
 
-	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'advisor_info_adress', array(
-            'label'          => __( 'Adress', 'restaurant-advisor' ),
-            'section'        => 'advisor_info_adress',
-            'settings'       => 'advisor_info_adress',
+	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'advisor_info_address', array(
+            'label'          => __( 'Address', 'restaurant-advisor' ),
+            'section'        => 'advisor_info_address',
+            'settings'       => 'advisor_info_address',
             'type'           => 'text',
 	) ) );
 
@@ -222,17 +227,14 @@ function advisor_scripts() {
 	wp_enqueue_script( 'restaurant-advisor-script', get_template_directory_uri() . 'js/scripts.js', array( 'jquery' ) );
 
 	/* Load the JQuery plugin for select */
-	wp_enqueue_script( 'restaurant-advisor-ikSelect', get_template_directory_uri() . '/js/jquery.ikSelect.min.js', array( 'jquery' ) );
+	wp_enqueue_script( 'jquery-ikSelect', get_template_directory_uri() . '/js/jquery.ikSelect.min.js', array( 'jquery' ) );
 
 	/* Add stilesheet */
 	wp_enqueue_style( 'restaurant-advisor-style', get_stylesheet_uri() );
 
 	/* Add Font Awesome icons */
-	wp_enqueue_style( 'restaurant-advisor-style-font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css' );
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css' );
 }
-
-/* Set the default logo when first theme install */
-advisor_default_logo();
 
 /* Register tho widget zones and theme widget Advisor Recent Posts */
 function advisor_widgets() {
@@ -262,38 +264,6 @@ function advisor_thumbnail_caption() {
 		return '<i id="advisor-thumbnail-caption">' . $caption . '</i>';
 	}
 	return "";
-}
-
-/* Adds a box to the main column on the Post and Page edit screens. */
-function advisor_post_place_add_meta_box() {
-	add_meta_box( 'post_place_sectionid', __( 'Post Address', 'restaurant-advisor' ), 'advisor_meta_box_callback', 'post', 'side', 'high' );
-} 
-
-/* Prints the box content */
-function advisor_meta_box_callback( $post ) {
-
-	/* Add a nonce field so we can check for it later. */
-	wp_nonce_field( 'advisor_post_place_save_meta_box_data', 'post_place_meta_box_nonce' );
-	$value = get_post_meta( $post->ID, '_post_address', true ); ?>
-	<label for="advisor_post_address">
-	<?php _e( 'You can enter the adddres here for show the reference to Google Maps', 'restaurant-advisor' ); ?>
-	</label> <br>
-	<input type="text" id="advisor_advisor_post_address" name="advisor_post_address" value="<?php echo esc_attr( $value ); ?>" size="25" />
-<?php }
-
-/*When the post is saved, saves our custom data. */
-function advisor_post_place_save_meta_box_data( $post_id ) {
-
-	if ( ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE )
-		|| ! isset( $_POST['advisor_post_address'] )
-		|| ! isset( $_POST['post_place_meta_box_nonce'] )
-		|| ! wp_verify_nonce( $_POST['post_place_meta_box_nonce'], 'advisor_post_place_save_meta_box_data' )
-		|| ( isset( $_POST['post_type'] ) && 'post' == $_POST['post_type'] && ! current_user_can( 'edit_post', $post_id ) )
-		) {
-		return;
-	}
-	$post_address = sanitize_text_field( $_POST['advisor_post_address'] );
-	update_post_meta( $post_id, '_post_address', $post_address );
 }
 
 /* Transform address to http view  */
@@ -400,14 +370,6 @@ function advisor_link_for_title() {
 function advisor_entry_meta( $post ) {
 	$author = get_the_author_link();
 	$date = get_the_date();
-	$ref = get_post_meta( $post->ID, '_post_address', true );
-	if ( isset( $ref ) && '' != $ref ) {
-		$print_ref = '<div id="advisor-post-visit"> <a href="' . esc_url( advisor_ref_to_maps( $ref ) ) . '" target="_blank">' .
-		__( 'Visit this place', 'restaurant-advisor' ) . '<i class="fa fa-map-marker"></i></a></div>';
-	} else {
-		$print_ref = '';
-	}
-	$ref = advisor_ref_to_maps( get_post_meta( $post->ID, '_post_address', true ) );
 	if ( ! current_user_can( 'edit_post', get_the_id() ) ) {
 		$edit='';
 	} else {
@@ -424,9 +386,9 @@ function advisor_entry_meta( $post ) {
 	printf(
 		'<div class="advisor-entry-meta"><small><b>' .
 		__( 'Posted by', 'restaurant-advisor' ) .
-		'<span class="advisor-entry-autor"> %1$s </span> &nbsp;&nbsp;/&nbsp;<a href="%5$s"> <div class="advisor-entry-date">%2$s</div></a>&nbsp;&nbsp;' .
-		'%3$s' . '</b></small>%4$s</div><div class="advisor-clear"></div>',
-		$author, $date, $edit, $print_ref, $date_link
+		'<span class="advisor-entry-autor"> %1$s </span> &nbsp;&nbsp;/&nbsp;<a href="%4$s"> <div class="advisor-entry-date">%2$s</div></a>&nbsp;&nbsp;' .
+		'%3$s' . '</b></small></div><div class="advisor-clear"></div>',
+		$author, $date, $edit, $date_link
 	);
 }
 
@@ -488,7 +450,6 @@ add_action( 'customize_controls_print_styles', 'advisor_customize_head' );
 add_action( 'widgets_init', 'advisor_widgets' );
 add_action( 'wp_enqueue_scripts', 'advisor_scripts' );
 add_filter( 'advisor_thumbnail_caption', 'advisor_thumbnail_caption', 10, 1 );
-add_action( 'add_meta_boxes', 'advisor_post_place_add_meta_box' );
 add_action( 'save_post', 'advisor_post_place_save_meta_box_data' );
 add_filter( 'advisor_ref_to_maps', 'advisor_ref_to_maps', 10, 1 );
 add_action( 'advisor_link_for_title', 'advisor_link_for_title' );

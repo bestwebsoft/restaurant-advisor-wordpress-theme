@@ -4,17 +4,17 @@
 *
 * @package BestWebLayout
 * @subpackage Restaurant Advisor
-* @since Restaurant Advisor 1.3
+* @since Restaurant Advisor 1.0
 **/
 ?>
 			<footer class="advisor-site-footer">
 			<div class="advisor-footer-container">
-				<?php $adress = get_theme_mod('advisor_info_adress');
+				<?php $address = get_theme_mod('advisor_info_address');
 				$phone = get_theme_mod('advisor_info_phone');
 				$email = get_theme_mod('advisor_info_email');
 				$logo_url = get_theme_mod( 'advisor_footer_logo' );
-				if (  ! empty( $logo_url ) || ! empty( $adress ) || ! empty( $phone ) || ! empty( $email ) ) {
-					if ( empty( $adress ) && empty( $phone ) && empty( $email ) ) { ?>
+				if (  ! empty( $logo_url ) || ! empty( $address ) || ! empty( $phone ) || ! empty( $email ) ) {
+					if ( empty( $address ) && empty( $phone ) && empty( $email ) ) { ?>
 						<div id="advisor-logo-contact-alone">
 					<?php } else { ?>
 						<div id="advisor-logo-contact">
@@ -26,13 +26,13 @@
 							</a>
 						</div><!-- .advisor-logo-footer -->
 					<?php }
-					if ( ! empty( $adress ) || ! empty( $phone ) || ! empty( $email ) ) { ?>
+					if ( ! empty( $address ) || ! empty( $phone ) || ! empty( $email ) ) { ?>
 						<div class='advisor-contact-footer'>
-							<?php if ( ! empty( $adress ) ) {
-								echo '<p id="advisor-address"><i class="fa fa-map-marker"></i><span class="advisor-contact-footer-data">' . sanitize_text_field( $adress ) . '</span></p>';
+							<?php if ( ! empty( $address ) ) {
+								echo '<p id="advisor-address"><i class="fa fa-map-marker"></i><span class="advisor-contact-footer-data">' . esc_html( $address ) . '</span></p>';
 							}  
 							if ( ! empty( $phone ) ) {
-						 		echo '<p id="advisor-phone-footer"><i class="fa fa-phone"></i><span class="advisor-contact-footer-data">' . sanitize_text_field( $phone ) . '</span></p>';
+						 		echo '<p id="advisor-phone-footer"><i class="fa fa-phone"></i><span class="advisor-contact-footer-data">' . esc_html( $phone ) . '</span></p>';
 						 	}
 						 	if ( ! empty( $email ) ) {
 						 		echo '<p id="advisor-contact-us"><a href="mailto:' . esc_attr( $email ) . '"><i class="fa fa-envelope"></i><span class="advisor-contact-footer-data">' . __( 'Contact us', 'restaurant-advisor' ) . '</a></span></p>';
@@ -62,9 +62,13 @@
 					</div> <!-- .advisor-nav-footer-container or .advisor-nav-footer-container-alone -->
 					<div class="advisor-clear"></div>
 					<div class="advisor-copyright">
-						<p><?php _e( 'Copyright', 'restaurant-advisor' ); ?> &copy; <?php echo current_time( 'Y' ); ?> <span id="advisor_copyright_author_name">
-							<?php $author = wp_get_theme();
-							echo sanitize_text_field( $author->get( 'Author' ) ); ?>.</span></p>
+						<p><?php _e( 'Theme by', 'restaurant-advisor' );
+							echo "&nbsp";?>
+							<span id="advisor_copyright_author_name">
+								<?php $author = wp_get_theme();
+								echo esc_html( $author->get( 'Author' ) ); ?>
+							</span>
+						</p>
 					</div> <!-- .advisor-copyright -->
 				</div> <!-- .advisor-footer-container -->
 			</footer>

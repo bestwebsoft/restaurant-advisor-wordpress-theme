@@ -4,7 +4,7 @@
 *
 * @package BestWebLayout
 * @subpackage Restaurant Advisor
-* @since Restaurant Advisor 1.3
+* @since Restaurant Advisor 1.0
 **/
 ?>
 <div class="advisor-widgets advisor-sidebar">

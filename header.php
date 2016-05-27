@@ -4,7 +4,7 @@
 *
 * @package BestWebLayout
 * @subpackage Restaurant Advisor
-* @since Restaurant Advisor 1.3
+* @since Restaurant Advisor 1.0
 **/
 ?>
 <!DOCTYPE html>
@@ -22,11 +22,11 @@
 					<div class="advisor-top-header-container">
 						<?php wp_nav_menu( array( 'theme_location'  => 'top' ) ) ?>
 						<div id="advisor-contact-top">
-							<?php $adress = get_theme_mod('advisor_info_adress');
+							<?php $address = get_theme_mod('advisor_info_address');
 							$phone = get_theme_mod('advisor_info_phone');
 							$reservation = get_theme_mod('advisor_info_reservation');
-							if ( ! empty( $adress ) ) {
-						 		$link = apply_filters( 'advisor_ref_to_maps', $adress );
+							if ( ! empty( $address ) ) {
+						 		$link = apply_filters( 'advisor_ref_to_maps', $address );
 						 		echo '<p id="advisor-view-us"><a href="' . esc_url( $link ) . '" target="_blank"> <i class="fa fa-map-marker"></i>' . __( 'view us on', 'restaurant-advisor' ) . '</a></p>';
 						 	}
 						 	if ( ! empty( $phone ) ) {
@@ -41,11 +41,16 @@
 				</div> <!-- .advisor-top-header-->
 				<div class="advisor-logo-header-container">
 					<div class="advisor-logo-header">
-						<?php $logo = get_theme_mod( 'advisor_header_logo' );
-						if ( ! empty( $logo ) ) { ?>
+						<?php if( current_theme_supports( 'custom-logo' ) ) {
+							$logo = get_custom_logo();
+						} else {
+							$get_logo = get_theme_mod( 'advisor_header_logo' );
+							$logo = ! empty( $get_logo ) ? '<img src="' . esc_url( $get_logo ) . '" alt=" ' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '">' : '';
+						}
+						if ( isset( $logo ) && ! empty( $logo ) ) { ?>
 							<div id="advisor-logo">
 								<a href="<?php echo esc_url( home_url() ); ?>">
-									<img src="<?php echo esc_url( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+									<?php echo $logo ?>
 								</a>	
 							</div>
 						<?php } ?>

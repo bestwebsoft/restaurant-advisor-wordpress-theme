@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Restaurant Advisor\n"
-"POT-Creation-Date: 2016-04-18 12:07+0300\n"
-"PO-Revision-Date: 2016-04-18 12:08+0300\n"
+"POT-Creation-Date: 2016-05-25 18:59+0300\n"
+"PO-Revision-Date: 2016-05-25 18:59+0300\n"
 "Last-Translator: \n"
 "Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
 "Language: ru_RU\n"
@@ -22,58 +22,58 @@ msgid "Contact us"
 msgstr "Напишите нам"
 
 #: footer.php:65
-msgid "Copyright"
-msgstr "Авторские права"
+msgid "Theme by"
+msgstr ""
 
-#: functions.php:59
+#: functions.php:66
 msgid "Primary Menu"
 msgstr "Главное Меню"
 
-#: functions.php:60
+#: functions.php:67
 msgid "Top Menu"
 msgstr "Меню Шапки"
 
-#: functions.php:61
+#: functions.php:68
 msgid "Footer Menu"
 msgstr "Меню Подвала"
 
-#: functions.php:70
+#: functions.php:77
 msgid "Tag"
 msgstr " Метка"
 
-#: functions.php:73
+#: functions.php:80
 msgid "Category"
 msgstr "Рубрика"
 
-#: functions.php:76 archive.php:14
+#: functions.php:83 archive.php:14
 msgid "Archive"
 msgstr "Архив"
 
-#: functions.php:93
-msgid "Logo"
-msgstr "Логотип"
-
-#: functions.php:95
-msgid "Load the logo to your site."
-msgstr "Загрузите логотип Вашего сайта"
-
-#: functions.php:95
-msgid "Recommended sizes"
-msgstr "Рекомендуемые размеры"
-
-#: functions.php:95
+#: functions.php:92
 msgid "for header logo"
 msgstr "для логотипа шапки"
 
-#: functions.php:95
+#: functions.php:94
+msgid "Logo"
+msgstr "Логотип"
+
+#: functions.php:96
+msgid "Load the logo to your site."
+msgstr "Загрузите логотип Вашего сайта"
+
+#: functions.php:96
+msgid "Recommended sizes"
+msgstr "Рекомендуемые размеры"
+
+#: functions.php:96
 msgid "for footer logo"
 msgstr "для логотипа подвала"
 
-#: functions.php:99
+#: functions.php:100
 msgid "Theme Options"
 msgstr " Настройки Темы"
 
-#: functions.php:101
+#: functions.php:102
 msgid ""
 "Here you can change the address and phone the site owner, and also link to "
 "reservation service . It's posible to save forms empty."
@@ -81,123 +81,115 @@ msgstr ""
 "Здесь можно изменить адрес и телефон владельца сайта, а также ссылку на "
 "сервис бронирования. Возможно оставить формы пустыми."
 
-#: functions.php:105 functions.php:182
-msgid "Adress"
+#: functions.php:106 functions.php:187
+msgid "Address"
 msgstr "Адрес"
 
-#: functions.php:107
+#: functions.php:108
 msgid "Enter you address. E.g."
 msgstr "Введите ваш адрес. Напр."
 
-#: functions.php:112 functions.php:175
+#: functions.php:108
+msgid "1600 Amphitheatre Parkway Mountain View CA 94043"
+msgstr ""
+
+#: functions.php:113 functions.php:180
 msgid "Phone"
 msgstr "Телефон"
 
-#: functions.php:114
+#: functions.php:115
 msgid "Enter you phone number. E.g."
 msgstr "Введите ваш номер телефона. Напр."
 
-#: functions.php:119
+#: functions.php:120
 msgid "Reservation"
 msgstr "Бронирование"
 
-#: functions.php:121
+#: functions.php:122
 msgid "Enter the reservation system URL. E.g."
 msgstr "Введите URL системы бронирования. Напр."
 
-#: functions.php:126
+#: functions.php:127
 msgid "Email"
 msgstr "Email"
 
-#: functions.php:128
+#: functions.php:129
 msgid "Enter the e-mail for feedback. E.g."
 msgstr "Введите e-mail для обратной связи. Напр."
 
-#: functions.php:163
+#: functions.php:167
 msgid "Header Logo"
 msgstr "Логотип Шапки"
 
-#: functions.php:169
+#: functions.php:174
 msgid "Footer Logo"
 msgstr "Лого Подвала"
 
-#: functions.php:189
+#: functions.php:194
 msgid "Reservation link"
 msgstr "Ссылка на страницу бронирования"
 
-#: functions.php:196
+#: functions.php:201
 msgid "E-mail for feedback"
 msgstr "E-mail для обратной связи"
 
-#: functions.php:216
+#: functions.php:221
 msgid "Choose File"
 msgstr "Выберите Файл"
 
-#: functions.php:217
+#: functions.php:222
 msgid "No file chosen"
 msgstr "Файл не выбран"
 
-#: functions.php:240
+#: functions.php:242
 msgid "Advisor sidebar"
 msgstr "Боковая колонка"
 
-#: functions.php:248
+#: functions.php:250
 msgid "Footer Widget"
 msgstr "Виджеты Подвала"
 
-#: functions.php:269
-msgid "Post Address"
-msgstr "Почтовый Адрес"
-
-#: functions.php:279
-msgid "You can enter the adddres here for show the reference to Google Maps"
-msgstr "Здесь вы можете ввести адрес, чтобы показать ссылку на Гугл Карты"
-
-#: functions.php:310
+#: functions.php:280
 msgid "Advisor Recent Posts"
 msgstr "Свежие Записи От Advisor"
 
-#: functions.php:310
+#: functions.php:280
 msgid "Widget recent posts for advisor theme"
 msgstr "Виджет, показывающий свежие записи для темы  Advisor"
 
-#: functions.php:318
+#: functions.php:288
 msgid "Recent Posts"
 msgstr "Свежие Записи"
 
-#: functions.php:379
+#: functions.php:349
 msgid "Title:"
 msgstr "Заголовок:"
 
-#: functions.php:381
+#: functions.php:351
 msgid "Number of posts to show:"
 msgstr "Отображать записей:"
 
-#: functions.php:406
-msgid "Visit this place"
-msgstr "Посетить это место"
-
-#: functions.php:414 functions.php:439 functions.php:462
+#: functions.php:376 functions.php:401 functions.php:424
 msgid "Edit"
 msgstr "Редактировать"
 
-#: functions.php:426
+#: functions.php:388
 msgid "Posted by"
 msgstr "Опубликовано пользователем"
 
-#: functions.php:441
+#: functions.php:403
 msgid "Pingback: "
 msgstr "Уведомление: "
 
-#: functions.php:448
+#: functions.php:410
 msgid "written by"
 msgstr "сказано"
 
-#: functions.php:469
+#: functions.php:431
 msgid "Your comment is awaiting moderation."
 msgstr "Ваш комментарий ожидает модерации."
 
-#: functions.php:479
+#: functions.php:441
 msgid "read more"
 msgstr "продолжить чтение"
 
@@ -297,6 +289,18 @@ msgstr "бронирование"
 #: search.php:13
 msgid "Search Results for"
 msgstr "Поиск по запросу"
+
+#~ msgid "Copyright"
+#~ msgstr "Авторские права"
+
+#~ msgid "Post Address"
+#~ msgstr "Почтовый Адрес"
+
+#~ msgid "You can enter the adddres here for show the reference to Google Maps"
+#~ msgstr "Здесь вы можете ввести адрес, чтобы показать ссылку на Гугл Карты"
+
+#~ msgid "Visit this place"
+#~ msgstr "Посетить это место"
 
 #~ msgid "ERROR"
 #~ msgstr "ОШИБКА"
