@@ -1,176 +1,286 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Advisor\n"
-"POT-Creation-Date: 2015-10-01 15:43+0300\n"
-"PO-Revision-Date: 2015-10-01 15:43+0300\n"
-"Last-Translator: \n"
-"Language-Team: BWS\n"
-"Language: english\n"
+"Project-Id-Version: Restaurant Advisor v1.6\n"
+"POT-Creation-Date: 2016-08-24 15:59+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-KeywordsList: __;_e;_x\n"
-"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: ../functions.php:69
-msgid "Primary Menu"
+#: 404.php:13
+msgid "Sorry, requested post not found"
 msgstr ""
 
-#: ../functions.php:71
-msgid "Top Menu"
-msgstr ""
-
-#: ../functions.php:73
-msgid "Footer Menu"
-msgstr ""
-
-#: ../functions.php:138
-msgid "Post Place"
-msgstr ""
-
-#: ../functions.php:175
-msgid "You can input the adddres here for show the reference to Google Maps"
-msgstr ""
-
-#: ../functions.php:344
-msgid "Advisor Recent Posts"
-msgstr ""
-
-#: ../functions.php:345
-msgid "Widget recent posts for advisor theme"
-msgstr ""
-
-#: ../functions.php:374
-msgid "Recent Posts"
-msgstr ""
-
-#: ../functions.php:461
-msgid "Title:"
-msgstr ""
-
-#: ../functions.php:464
-msgid "Number of posts to show:"
-msgstr ""
-
-#: ../functions.php:468
-msgid "Display post date?"
-msgstr ""
-
-#: ../functions.php:480
-msgid "Advisor sidebar"
-msgstr ""
-
-#: ../functions.php:488
-msgid "Footer Widget"
-msgstr ""
-
-#: ../functions.php:517
-#, php-format
-msgid "Page %s"
-msgstr ""
-
-#: ../functions.php:560
-#, php-format
-msgid ""
-"<div class=\"comment-meta\"> <span class=\"says\">WRITTEN BY</span> <cite "
-"class=\"comment-autor-link\">%s</cite>"
-msgstr ""
-
-#: ../functions.php:561
-#, php-format
-msgid "%1$s %2$s"
-msgstr ""
-
-#: ../functions.php:573
-msgid "Edit"
-msgstr ""
-
-#: ../functions.php:577
-msgid "Your comment is awaiting moderation."
-msgstr ""
-
-#: ../index.php:22 ../single.php:22
+#: archive.php:49 image.php:34 index.php:46 page.php:39 search.php:43
+#: single.php:30
 msgid "Pages"
 msgstr ""
 
-#: ../comments.php:2
+#: archive.php:72 index.php:69 search.php:59
+msgid "top"
+msgstr ""
+
+#: archive.php:88 index.php:84 search.php:71
+msgid "Sorry, no posts were found"
+msgstr ""
+
+#: comments.php:11
 msgid "Comments closed"
 msgstr ""
 
-#: ../comments.php:5
+#: comments.php:13
 msgid "No comments yet"
 msgstr ""
 
-#: ../comments.php:11
-msgid "COMMENTS"
+#: comments.php:16
+msgid "comments"
 msgstr ""
 
-#: ../comments.php:24
-msgid "NAME"
+#: comments.php:19 comments.php:34
+msgid "prev comments"
 msgstr ""
 
-#: ../comments.php:27
-msgid "E-MAIL"
+#: comments.php:22 comments.php:37
+msgid "next comments"
 msgstr ""
 
-#: ../comments.php:35
-msgid "You Comment"
+#: comments.php:43
+msgid "name"
 msgstr ""
 
-#: ../comments.php:36
-msgid "LEAVE A COMMENT"
+#: comments.php:44
+msgid "Your Name"
 msgstr ""
 
-#: ../comments.php:37
-msgid "SUBMIT COMMENT"
+#: comments.php:46
+msgid "e-mail"
 msgstr ""
 
-#: ../gallery-template.php:14
-msgid "Gallery Category"
+#: comments.php:47
+msgid "Your E-mail"
 msgstr ""
 
-#: ../single.php:33
-msgid "PREV"
+#: comments.php:53
+msgid "comment"
 msgstr ""
 
-#: ../single.php:34
-msgid "NEXT"
+#: comments.php:54
+msgid "Your Comment"
 msgstr ""
 
-#: ../gallery-single-template.php:19
-msgid "Download high resolution image"
+#: comments.php:55
+msgid "leave a comment"
 msgstr ""
 
-#: ../gallery-single-template.php:101
-msgid "Sorry, nothing found."
+#: comments.php:56
+msgid "submit comment"
 msgstr ""
 
-#: ../gallery-single-template.php:120
-msgid "Image"
+#: footer.php:37
+msgid "Contact us"
 msgstr ""
 
-#: ../inc/customizer.php:4
+#: footer.php:65
+msgid "Theme by"
+msgstr ""
+
+#: functions.php:76
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:77
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:78
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:92
+msgid "for header logo"
+msgstr ""
+
+#: functions.php:94
 msgid "Logo"
 msgstr ""
 
-#: ../inc/customizer.php:6
-msgid ""
-"Load the logo to your site.<br>Recommended sizes:<br>1) for header logo - "
-"138 x 141 px<br>2) for footer logo - 77 x 78 px"
+#: functions.php:96
+msgid "Load the logo to your site."
 msgstr ""
 
-#: ../inc/customizer.php:13
+#: functions.php:96
+msgid "Recommended sizes"
+msgstr ""
+
+#: functions.php:96
+msgid "for footer logo"
+msgstr ""
+
+#: functions.php:100
+msgid "Theme Options"
+msgstr ""
+
+#: functions.php:102
+msgid ""
+"Here you can change the address and phone the site owner, and also link "
+"to reservation service . It's posible to save forms empty."
+msgstr ""
+
+#: functions.php:106 functions.php:187
+msgid "Address"
+msgstr ""
+
+#: functions.php:108
+msgid "Enter you address. E.g."
+msgstr ""
+
+#: functions.php:108
+msgid "1600 Amphitheatre Parkway Mountain View CA 94043"
+msgstr ""
+
+#: functions.php:113 functions.php:180
+msgid "Phone"
+msgstr ""
+
+#: functions.php:115
+msgid "Enter you phone number. E.g."
+msgstr ""
+
+#: functions.php:120
+msgid "Reservation"
+msgstr ""
+
+#: functions.php:122
+msgid "Enter the reservation system URL. E.g."
+msgstr ""
+
+#: functions.php:127
+msgid "Email"
+msgstr ""
+
+#: functions.php:129
+msgid "Enter the e-mail for feedback. E.g."
+msgstr ""
+
+#: functions.php:167
 msgid "Header Logo"
 msgstr ""
 
-#: ../inc/customizer.php:16
-msgid "Recommended size 138px x 141px"
+#: functions.php:174
+msgid "Footer Logo"
 msgstr ""
 
-#: ../inc/customizer.php:20
-msgid "Footer Logo"
+#: functions.php:194
+msgid "Reservation link"
+msgstr ""
+
+#: functions.php:201
+msgid "E-mail for feedback"
+msgstr ""
+
+#: functions.php:221
+msgid "Choose File"
+msgstr ""
+
+#: functions.php:222
+msgid "No file chosen"
+msgstr ""
+
+#: functions.php:242
+msgid "Advisor sidebar"
+msgstr ""
+
+#: functions.php:250
+msgid "Footer Widget"
+msgstr ""
+
+#: functions.php:283
+msgid "Advisor Recent Posts"
+msgstr ""
+
+#: functions.php:283
+msgid "Widget recent posts for advisor theme"
+msgstr ""
+
+#: functions.php:291
+msgid "Recent Posts"
+msgstr ""
+
+#: functions.php:358
+msgid "Title:"
+msgstr ""
+
+#: functions.php:362
+msgid "Number of posts to show:"
+msgstr ""
+
+#: functions.php:387 functions.php:412 functions.php:434 page.php:23
+msgid "Edit"
+msgstr ""
+
+#: functions.php:399
+msgid "Posted by"
+msgstr ""
+
+#: functions.php:414
+msgid "Pingback: "
+msgstr ""
+
+#: functions.php:421
+msgid "written by"
+msgstr ""
+
+#: functions.php:441
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:447
+msgid "read more"
+msgstr ""
+
+#: header.php:32
+msgid "view us on"
+msgstr ""
+
+#: header.php:38
+msgid "reservation"
+msgstr ""
+
+#: image.php:48
+msgid "PREV"
+msgstr ""
+
+#: image.php:49
+msgid "NEXT"
+msgstr ""
+
+#: search.php:13
+msgid "Search Results for"
+msgstr ""
+
+#: searchform.php:13
+msgid "Enter search keyword"
+msgstr ""
+
+#: single.php:51
+msgid "prev"
+msgstr ""
+
+#: single.php:52
+msgid "next"
 msgstr ""

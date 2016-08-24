@@ -1,9 +1,11 @@
 === Restaurant Advisor ===
 Contributors: BestWebLayout, BestWebSoft
-Tags: white, green, black, right-sidebar, custom-header, translation-ready, featured-images, two-columns, responsive-layout, custom-background, post-formats, custom-colors, sticky-post
-Requires at least: 4.1 
-Tested up to: 4.5.1
-Stable tag: 1.5
+Author URI: http://bestweblayout.com/
+Donate link: http://bestwebsoft.com/donate/
+Tags: right-sidebar, custom-header, translation-ready, featured-images, two-columns, custom-background, post-formats, custom-colors, sticky-post
+Requires at least: 4.2
+Tested up to: 4.6
+Stable tag: 1.6
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Restaurant Advisor WordPress Theme, Copyright 2016 BestWebLayout.com
@@ -95,10 +97,8 @@ The Theme includes a standard Widget. The following widgets are shown by default
 
 == Frequently Asked Questions ==
 = How can I change the language from English into Russian? =
-WordPress v4.0 and above:
+
 Change the language in the admin settings screen. Settings → General → Site Language.
-WordPress v3.9.2 and below:
-In the main catalog of your WordPress site, please find wp-config.php file, open it and change define( 'WPLANG', '' ); for define( 'WPLANG', 'ru_RU' );
 
 = How can I change footer and header logo? =
 Download your images in:
@@ -110,7 +110,10 @@ Download your images in:
 
 == Changelog ==
 
-= V1.5 - 27.05.2016 =
+= V1.6 - 24.08.2016 =
+* Update : All functionality for WordPress 4.6 was updated.
+
+= V1.5 - 24.05.2016 =
 * Update: Header logo installation was implemented using the core for WordPress 4.5 and later
 
 = V1.4 - 04.05.2016 =
@@ -134,6 +137,9 @@ Download your images in:
 * Release of Restaurant Advisor theme
 
 == Upgrade Notice ==
+
+= V1.6 =
+* The compatibility with new WordPress version updated.
 
 = V1.5 =
 Header logo installation was implemented using the core for WordPress 4.5 and later.
