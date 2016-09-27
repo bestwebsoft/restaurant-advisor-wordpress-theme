@@ -455,7 +455,6 @@ add_action( 'customize_controls_print_styles', 'advisor_customize_head' );
 add_action( 'widgets_init', 'advisor_widgets' );
 add_action( 'wp_enqueue_scripts', 'advisor_scripts' );
 add_filter( 'advisor_thumbnail_caption', 'advisor_thumbnail_caption', 10, 1 );
-add_action( 'save_post', 'advisor_post_place_save_meta_box_data' );
 add_filter( 'advisor_ref_to_maps', 'advisor_ref_to_maps', 10, 1 );
 add_action( 'advisor_link_for_title', 'advisor_link_for_title' );
 add_action( 'advisor_entry_meta', 'advisor_entry_meta', 10, 1 );

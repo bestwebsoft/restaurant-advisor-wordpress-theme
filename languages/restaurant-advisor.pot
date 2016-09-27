@@ -1,8 +1,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Restaurant Advisor v1.6\n"
-"POT-Creation-Date: 2016-08-24 15:59+0300\n"
+"Project-Id-Version: Restaurant Advisor v1.7\n"
+"POT-Creation-Date: 2016-09-27 10:05+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Your Name <you@example.com>\n"
 "Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
@@ -13,21 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
-"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
-"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "Language: en_US\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:13
 msgid "Sorry, requested post not found"
 msgstr ""
 
-#: archive.php:49 image.php:34 index.php:46 page.php:39 search.php:43
-#: single.php:30
+#: archive.php:49 image.php:34 index.php:46 page.php:39 search.php:43 single.php:30
 msgid "Pages"
 msgstr ""
 
@@ -136,9 +133,7 @@ msgid "Theme Options"
 msgstr ""
 
 #: functions.php:102
-msgid ""
-"Here you can change the address and phone the site owner, and also link "
-"to reservation service . It's posible to save forms empty."
+msgid "Here you can change the address and phone the site owner, and also link to reservation service . It's posible to save forms empty."
 msgstr ""
 
 #: functions.php:106 functions.php:187

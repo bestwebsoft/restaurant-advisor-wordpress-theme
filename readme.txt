@@ -4,8 +4,8 @@ Author URI: http://bestweblayout.com/
 Donate link: http://bestwebsoft.com/donate/
 Tags: right-sidebar, custom-header, translation-ready, featured-images, two-columns, custom-background, post-formats, custom-colors, sticky-post
 Requires at least: 4.2
-Tested up to: 4.6
-Stable tag: 1.6
+Tested up to: 4.6.1
+Stable tag: 1.7
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Restaurant Advisor WordPress Theme, Copyright 2016 BestWebLayout.com
@@ -110,6 +110,9 @@ Download your images in:
 
 == Changelog ==
 
+= V1.7 - 27.09.2016 =
+* Update: All functionality for WordPress 4.6.1 was updated.
+
 = V1.6 - 24.08.2016 =
 * Update : All functionality for WordPress 4.6 was updated.
 
@@ -137,6 +140,9 @@ Download your images in:
 * Release of Restaurant Advisor theme
 
 == Upgrade Notice ==
+
+= V1.7 =
+All functionality for WordPress 4.6.1 was updated.
 
 = V1.6 =
 * The compatibility with new WordPress version updated.
